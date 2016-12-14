@@ -1,0 +1,208 @@
+h1{font-family: sans-serif;
+color: darkblue;
+font-size: 24px;}
+
+/*practice1*/
+
+.practice1{
+    background: url("http://pic.shejiben.com/caizhi/day_080807/aeffbb55e09ab6103fdfb7e3f9ee4523.jpg");
+ text-align: center;
+}
+
+.col{
+    width: 22%;
+    height: 400px;
+    background: white;
+    display: inline-block;
+    margin: 50px 6px;
+}
+.price-box{
+    width: 100%;
+    height: 200px;
+    background:rgba(16, 30, 46, 0.73);
+    color:white;
+}
+.plan-text{
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.price-text *{
+    display: inline-block;    
+}
+.price-text{
+    text-align: center;
+}
+.amount{
+    font-size: 50px;
+    padding: 0px 15px;
+}
+.dollar{
+    vertical-align: top;
+    padding-top: 8px;
+}
+.btn-box{
+    text-align: center;
+    border: 2px solid #adacac;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px 5px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.plan-box{
+    padding: 37px 20px;
+    text-align: left;
+    display: inline-block;
+}
+.plan-message{
+    border-bottom: 1px solid #adacac;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.stress{
+    display: inline-block;
+    color: black;
+}
+.lightgrey{
+    color: #adacac;
+}
+
+/*practice2*/
+
+.practice2{
+    margin-top: 15px;
+}
+.practice2 {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    padding:2%;
+    font-size: 25px;
+    font-family: arial;
+    box-sizing: border-box;
+    width: 100%
+}
+.practice2 *{
+    float: left;
+}
+.header{
+    width:100%;
+    height: 100px;
+    background: rgba(0, 109, 238, 0.77);
+    line-height:100px; 
+}
+.nav{
+    width:100%;
+    height: 50px;
+    background: rgba(253, 207, 0, 0.87);
+    line-height: 50px;
+}
+.sidebar{
+    width:25%;
+    height: 350px;
+    background:rgba(36, 104, 179, 0.94);
+    line-height: 350px;
+}
+.main{
+    width:75%;
+    height: 350px;
+    background:rgba(74, 200, 75, 0.96);
+    line-height: 350px;
+}
+.footer{
+    width:100%;
+    background:rgba(255, 168, 0, 0.93);
+}
+
+
+/*practice3*/
+
+.bar>li{
+    display: inline-block;
+    border: 1px solid darkblue;
+    position: relative;
+    margin-top: 20px;
+    margin-left: -5px;
+    margin-bottom: 200px;
+    padding: 10px;
+}
+li{
+    cursor: pointer;
+}
+.submenu{
+    background: lightgrey;
+    width: 150px;
+    padding: 0px;
+    position: absolute;
+    left:-1px;
+    top: 100%;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    
+    display: none;
+}
+.submenu li{
+    list-style: none;
+    padding: 10px;
+}
+.bar>li:hover .submenu{
+    display: block;
+}
+.submenu>li:hover{
+    background: #fff;
+    color: #333;
+}
+.submenu>li:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.submenu>li:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*practice4*/
+.movedot{
+    background: #ff8100;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;}
+
+/*practice5*/
+    
+.bargroup{
+  background: #eee;
+  height: 100px;
+  padding:10px;
+  margin: 0px -8px;
+}
+div.bar {
+	width: 30px;
+	height: 30px;
+	background-color: gold;
+	margin-bottom: 5px;
+    transition:1s;
+}
+div.bar:hover{
+  background-color:red;
+}
+.item1:hover{
+  width:780px;
+}
+.item2:hover{
+  width:20px;
+}
+.item3:hover{
+  width:270px;
+} 
+    
